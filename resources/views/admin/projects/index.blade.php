@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <h2 class="text-center">La lista dei projetti</h2>
+        <h2 class="text-center mt-4">Lista dei progetti</h2>
         <div class="row justify-content-center">
             <div class="col-8">
                 <table class="table">

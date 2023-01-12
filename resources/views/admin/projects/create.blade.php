@@ -5,7 +5,7 @@
         <h2 class="text-center">Aggiungi un nuovo progetto</h2>
         <div class="row justify-content-center">
             <div class="col-8">
-                {{-- @include('partials.errors') --}}
+                {{-- @include('partials.errors')  --}}
                 <form action="{{ route('admin.projects.store') }}" method="POST">
                     @csrf
                     <div class="mb-3">

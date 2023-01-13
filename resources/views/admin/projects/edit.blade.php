@@ -6,7 +6,7 @@
         </h2>
         <div class="row justify-content-center">
             <div class="col-8">
-                {{-- @include('partials.errors') --}}
+                @include('partials.errors')
                 <form action="{{ route('admin.projects.update', $project->slug) }}" method="POST">
                     @csrf
                     @method('PUT')

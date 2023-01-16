@@ -8,6 +8,9 @@
             </a>
         </div>
         <h2 class="text-center">{{ $project->title }}</h2>
+        <div class="mt-3 text-center">
+            <img class="w-50" src="{{ asset('storage/' . $project->cover_image) }}" alt="">
+        </div>
         <p class="mt-3">{{ $project->description }}</p>
     </div>
 @endsection
